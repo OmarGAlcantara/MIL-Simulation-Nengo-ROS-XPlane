@@ -61,7 +61,21 @@ $roslaunch xplane_ros default.launch
 
 The default.launch provides the bare-minimum structure in order to interface with XPlane. The xplane_ros_wrapper node will provide the odometry data from XPlane and it will listen to Xplane commands from the user application on the topic /xplane/my_control and then send them to XPlane.
 
-The default.launch file also has a launch command for the rviz visualization. 
+The default.launch file also has a launch command for the rviz visualization. If rostopics are shown when inputoong $rostopic list that means XplaneROS is working.
+
+SETTING UP A SIMULATION
+
+For the simulation create a ROS package and paste inside the folder scripts and the folder launch.
+Make sure to build your workspace
+  $cd ..
+  $catkin build
+  $source ~/xplane_ros_ws/devel/setup.bash
+
+to run a simulation open a simulation on xplane selecting the aircraft intelaerortf2 and the location to Butler airport (ID : KBTP) with Runway 26. Launch the file to start the simulation
+
+$roslaunch yourpackagename nengo.launch
+
+
 
 
 
