@@ -28,7 +28,7 @@ $mkdir -p ~/xplane_ros_ws/src
 $cd ~/xplane_ros_ws
 $catkin init
 
-After that we will install our fork of ROSplane. Download the src folder from this repository and paste it inside the xplane_ros_ws folder.
+After that we will install our fork of ROSplane. Download the src folder from the following url "https://cinvestav365-my.sharepoint.com/:f:/g/personal/omar_garcia_cinvestav_mx/EgPVlCLWZzRJh9adac1V2fABYqtnc4FqSADwBfdWTE3kDQ?e=coI14Y" and paste it inside the xplane_ros_ws folder.
 
 In a terminal type:
 	$cd rosflight/
@@ -45,10 +45,6 @@ $cd ~/xplane_ros_ws/src
 
 Install system dependencies:
 $sudo apt-get install python-wstool python-catkin-tools
-
-Download repo using a SSH key or via HTTPS:
-$git clone git@github.com:castacks/xplane_ros.git # SSH
-$git clone https://github.com/castacks/xplane_ros.git # HTTPS
 
 Source and compile:
 $catkin build
