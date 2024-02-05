@@ -1,0 +1,1 @@
+When you copy only one of the versions inside the Scripts folder into your own package script folder, it is necessary to delete the extra characters in the files names, for example "run_models_fullt_neuromorphic_PD_Direct.py" should only be called "run_models.py" in order to execute only one of the versions included in the Scripts file.
