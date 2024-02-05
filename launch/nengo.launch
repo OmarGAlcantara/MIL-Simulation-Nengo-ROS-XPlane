@@ -1,0 +1,14 @@
+<launch>
+	
+	<!-- launch the bag file recording -->
+	<!-- modify the file for different experiments -->
+
+    <node
+        pkg = 'nengo_pid'
+        type = 'run_models.py'
+        name = 'run_model'
+        output = 'screen'
+    ></node>
+
+
+</launch>
